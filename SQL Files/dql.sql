@@ -1,3 +1,4 @@
+-- https://www.mysqltutorial.org/tryit/
 -- select all columns
 select * from employees;
 
