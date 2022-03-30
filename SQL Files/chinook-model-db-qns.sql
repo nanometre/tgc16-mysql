@@ -4,9 +4,9 @@ SELECT Employee.FirstName, Employee.LastName
     WHERE Title = "Sales Support Agent";
 
 -- 2 - Display all employees hired between 2002 and 2003, and display their first name and last name
-SELECT Employee.FirstName, Employee.LastName
+SELECT FirstName, LastName, HireDate
     FROM Employee
-    WHERE YEAR(HireDate) >= '2002' AND YEAR(HireDate) <= 2003;
+    WHERE YEAR(HireDate) BETWEEN 2002 AND 2003;
 
 -- 3 - Display all artists that have the word 'Metal' in their name
 SELECT * 
