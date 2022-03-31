@@ -15,16 +15,14 @@ mysql -u root -p
 1. DDL - Data Definition Language
 2. Data Query language
 
-# DDL
-
-## Create a database
+## Dependencies
 ```
-create database swimming_school;
-```
-
-## Switch database
-```
-use swimming_school
+yarn add express
+yarn add hbs
+yarn add wax-on
+yarn add handlebars-helpers
+yarn add mysql2
 ```
 
-## Create tables
+* `mysql2` allows NodeJS application to send SQL commands to MySQL
+* What is the differences between `mysql` and `mysql2`: the latter supports promises and await/async
